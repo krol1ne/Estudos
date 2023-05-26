@@ -1,0 +1,17 @@
+void main() {
+  var qualPeriodo = "";
+  switch (qualPeriodo) {
+    case 'manha':
+      print("Ta na hora do Café da manhã");
+      break;
+    case 'tarde':
+      print("Já almoçou?");
+      break;
+    case 'noite':
+      print("vamos jantar ?");
+      break;
+    default:
+      print("come alguma coisa bem");
+  }
+}
+// nesse cdigo ele verica qua a resposta certa e printa o valor, e caso não tenha nenhum valor ele printa o default
